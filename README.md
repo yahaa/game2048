@@ -7,13 +7,22 @@
 * make 命令
 * golang 1.8+
 
-### 本地运行
+### 本地构建镜像并运行
 * git clone git@github.com:yahaa/game2048.git
 * cd game2048
 * make
 * docker run -d -p 8080:8080 game2048
 
-### api使用说明
+### 直接拉取远程镜像并运行
+* docker pull yzihua/game2048
+* docker run -d -p 8080:8080 yzihua/game2048
+
+### 线上api地址
+* http://foryung.com/game2048
+* 请求格式看API使用说明
+
+### API使用说明
+
 
 *  GET /game2048      //获取当前状态
 
