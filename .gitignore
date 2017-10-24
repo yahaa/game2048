@@ -99,9 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
-
-将删除 .idea/game2048.iml
-将删除 .idea/inspectionProfiles/
-将删除 .idea/modules.xml
-将删除 .idea/workspace.xml
+.idea
 game2048
